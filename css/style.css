@@ -1,0 +1,162 @@
+body {
+	font-family: HelveticaNeueCyr;
+	font-weight: 300;
+	font-size: 14px;
+	min-width: 320px;
+	background-color: #fcfcfc;
+	color: #040404;
+}
+@media (min-width: 1600px) {
+	.container {
+		max-width: 1400px !important;
+	}
+}
+h2 {
+	font-size: 1.5rem;
+}
+.menu-bg {
+	background-color: #18324c;
+}
+.overlay-1 {
+	background-color: #fafafa;
+}
+@media (min-width: 992px) {
+	.overlay-1 {
+		height: 100vh;
+	}
+}
+.overlay-2 {
+	background-color: #f1f1f2;
+}
+.btn {
+	border-radius: 50px;
+}
+.btn-primary {
+	color: #fff;
+	background-color: #e0540d;
+	border-color: #e0540d;
+}
+.btn-primary:hover,
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
+	color: #fff;
+	background-color: #ab3f08;
+	border-color: #823108;
+}
+.btn-secondary {
+	color: #171717;
+	border-radius: 0;
+	border: 0px;
+	border-bottom: 1px solid #e0540d;
+	background: transparent;
+	padding: 0 0.2rem;
+}
+.btn-secondary:hover {
+	color: #aaa;
+	background: transparent;
+	border-color: #823108;
+}
+.nav-pills .nav-link {
+	border-radius: 50px;
+}
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+	color: #fff;
+	border-radius: 0;
+	border: 0px;
+	border-bottom: 1px solid #e0540d;
+	background: transparent;
+	padding: 0 0.2rem;
+}
+.navbar-brand {
+	font-size: 1.15rem;
+	line-height: 1.2;
+}
+.navbar-brand img {
+	width: 60px;
+	margin-left: 1rem;
+}
+@media (min-width: 768px) {
+	.navbar-brand img {
+		width: 80px;
+	}
+}
+.navbar-brand span {
+	display: none;
+}
+@media (min-width: 768px) {
+	.navbar-brand span {
+		display: inline-block;
+		font-size: 0.96rem;
+	}
+}
+.tel {
+	font-size: 0.96rem;
+	color: #fcfcfc;
+}
+.sh_nmr {
+	width: 100%;
+	cursor: pointer;
+}
+@media (min-width: 992px){
+	.utp-box {
+		margin-top: 8rem;
+	}
+}
+.utp {
+	font-size: 1.2rem;
+	line-height: 1.6;
+}
+.anchor {
+	border-top: 55px solid transparent;
+	margin-top: -55px;
+	padding: 15px; /* паддинги - без проблем */
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box;
+}
+.card {
+	background-color: #f4f4f5;
+	border: 0;
+	padding: 20px 20px;
+}
+/*
+@media (min-width: 992px){
+	.card {
+		margin: 80px 80px;
+		padding: 50px 40px;
+	}
+}
+*/
+.card-title {
+	font-size: 1.4rem;
+}
+.card-text {
+}
+@media (min-width: 992px){
+	.cmpr-box {
+		margin-top: 80px;
+	}
+}
+.cmpr {
+	font-size: 0.8rem;
+}
+@media (min-width: 992px){
+	.cmpr {
+		margin-top: 80px !important;
+	}
+}
+.table_goods {
+	background: transparent;
+}
+.id_3-2 {
+	margin-top: -30px !important;
+}
+
+@media (min-width: 992px){
+	.id_3-2 {
+		margin-top: -0px !important;
+	}
+}
+
+.b1c-good .b1c-name {
+	display: none;
+}
